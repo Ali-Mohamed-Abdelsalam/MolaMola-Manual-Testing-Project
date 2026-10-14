@@ -1,1 +1,70 @@
+# Mola Mola Diving Center – Manual Testing Project
 
+## Project Overview
+
+This project documents the manual QA testing performed on the Mola Mola Diving Center website, covering its main functionality, user journeys, booking process, navigation, and content presentation.
+
+**Website:** https://molamoladivingcenter.com/
+
+**Developed by:** [Deviora Studio](https://deviorastudio.com/)
+
+**Manual Testing by:** Ali Mohamed Abdelsalam
+
+**Date:** October 2026
+
+## Testing Scope
+
+The manual testing process covered:
+
+- Website navigation and linked pages
+- Trip, course, and package information
+- Booking functionality and input validation
+- Contact forms and information
+- Gallery and content visibility
+- Responsive presentation
+- End-to-end user journeys
+
+## Test Execution Summary
+
+| Metric | Result |
+|---|---:|
+| Total Test Cases | 166 |
+| Executed | 166 |
+| Passed | 154 |
+| Failed | 12 |
+| Execution Rate | 100% |
+| Pass Rate | 92.77% |
+| Bug Report Entries | 12 |
+
+## Bug Reporting
+
+The bug-tracking workbook documents 12 failed test cases, including issues related to:
+
+- Content visibility on linked pages
+- Contact and map information
+- Booking field validation
+- Course and package booking selection
+
+Two reported items require further requirement confirmation: private-trip pricing behavior and the intended Dive Trips URL. Some reported issues may share the same root cause.
+
+## Project Deliverables
+
+| Deliverable | Description |
+|---|---|
+| Test Cases | Documented manual test cases and execution results |
+| Bug Report | Reported issues with reproduction steps, expected and actual results |
+| Final QA Report | Testing overview, execution metrics, findings, and conclusion |
+
+## Tools Used
+
+- Microsoft Excel
+- Manual Testing
+- Bug Tracking
+
+## Conclusion
+
+Manual testing was completed with 166 executed test cases, achieving a 92.77% pass rate. The documented results provide an overview of the website's tested functionality and identify areas requiring fixes or further clarification.
+
+---
+
+**Manual Testing by Ali Mohamed Abdelsalam**
