@@ -1,70 +1,125 @@
-# Mola Mola Diving Center – Manual Testing Project
+# 🌊 Mola Mola Diving Center – Manual Testing Project
 
-## Project Overview
+![Testing](https://img.shields.io/badge/Testing-Manual-blue)
+![Test Cases](https://img.shields.io/badge/Test_Cases-166-blue)
+![Passed](https://img.shields.io/badge/Passed-154-brightgreen)
+![Failed](https://img.shields.io/badge/Failed-12-red)
+![Pass Rate](https://img.shields.io/badge/Pass_Rate-92.77%25-green)
 
-This project documents the manual QA testing performed on the Mola Mola Diving Center website, covering its main functionality, user journeys, booking process, navigation, and content presentation.
+## 📌 Project Overview
 
-**Website:** https://molamoladivingcenter.com/
+This repository contains the manual testing documentation for **Mola Mola Diving Center**, a diving and snorkeling website offering activities in Muscat, Oman.
 
-**Developed by:** [Deviora Studio](https://deviorastudio.com/)
+The project focuses on validating website functionality, navigation, booking workflows, input validation, and content presentation through structured manual testing.
 
-**Manual Testing by:** Ali Mohamed Abdelsalam
+- **Website:** https://molamoladivingcenter.com/
+- **Developed by:** [Deviora Studio](https://deviorastudio.com/)
+- **Manual Testing by:** Ali Mohamed Abdelsalam
+- **Testing Date:** October 2026
 
-**Date:** October 2026
+---
 
-## Testing Scope
+## 🎯 Testing Scope
 
-The manual testing process covered:
+The manual testing process covered the following areas:
 
-- Website navigation and linked pages
-- Trip, course, and package information
-- Booking functionality and input validation
-- Contact forms and information
-- Gallery and content visibility
-- Responsive presentation
-- End-to-end user journeys
+| Testing Area | Coverage |
+|---|---|
+| Navigation | Website navigation and linked pages |
+| Trip & Course Pages | Information, content cards, and visibility |
+| Booking | Booking functionality, fields, and pricing summary |
+| Forms | Input validation and contact information |
+| Packages | Package details and booking selection |
+| Gallery | Image and content presentation |
+| Responsive Design | Display across different screen sizes |
 
-## Test Execution Summary
+---
+
+## 📊 Test Execution Summary
+
+A total of **166 manual test cases** were executed.
 
 | Metric | Result |
-|---|---:|
+|:---|---:|
 | Total Test Cases | 166 |
 | Executed | 166 |
 | Passed | 154 |
 | Failed | 12 |
+| Not Executed | 0 |
 | Execution Rate | 100% |
 | Pass Rate | 92.77% |
+| Fail Rate | 7.23% |
 | Bug Report Entries | 12 |
 
-## Bug Reporting
+### Execution Status
 
-The bug-tracking workbook documents 12 failed test cases, including issues related to:
-
-- Content visibility on linked pages
-- Contact and map information
-- Booking field validation
-- Course and package booking selection
-
-Two reported items require further requirement confirmation: private-trip pricing behavior and the intended Dive Trips URL. Some reported issues may share the same root cause.
-
-## Project Deliverables
-
-| Deliverable | Description |
-|---|---|
-| Test Cases | Documented manual test cases and execution results |
-| Bug Report | Reported issues with reproduction steps, expected and actual results |
-| Final QA Report | Testing overview, execution metrics, findings, and conclusion |
-
-## Tools Used
-
-- Microsoft Excel
-- Manual Testing
-- Bug Tracking
-
-## Conclusion
-
-Manual testing was completed with 166 executed test cases, achieving a 92.77% pass rate. The documented results provide an overview of the website's tested functionality and identify areas requiring fixes or further clarification.
+- 🟢 **Passed:** 154 Test Cases
+- 🔴 **Failed:** 12 Test Cases
+- ⚪ **Not Executed:** 0 Test Cases
 
 ---
 
-**Manual Testing by Ali Mohamed Abdelsalam**
+## 🐞 Bug Reporting
+
+The bug report documents 12 failed test cases identified during manual execution.
+
+### Key Findings
+
+| Area | Failed Cases | Finding |
+|---|---:|---|
+| Navigation & Trip Content | 4 | Content obscured by images |
+| Contact Information | 2 | Incorrect map/address destinations |
+| Booking Form | 2 | Input validation issues |
+| Private Trip Pricing | 1 | Pricing behavior requires confirmation |
+| Course & Package Booking | 2 | Selected booking options are not preserved |
+| Dive Trips Page | 1 | Reported 404; intended URL requires confirmation |
+
+**Note:** Two reported items require further requirement clarification before being confirmed as defects. Some reported failures may share a common root cause.
+
+---
+
+## 📂 Project Deliverables
+
+The repository includes the following documentation:
+
+| File | Description |
+|---|---|
+| `TestCases_MolaMola.xlsx` | Manual test cases and execution results |
+| `Mola Mola Bug_Report.xlsm` | Bug tracking and reported findings |
+| `MolaMola_Manual_Testing_Report.pdf` | Final QA report and execution summary |
+
+---
+
+## 🛠️ Tools & Techniques
+
+- Manual Testing
+- Test Case Design & Execution
+- Functional Testing
+- UI Testing
+- Input Validation Testing
+- Bug Reporting
+- Microsoft Excel
+
+---
+
+## 📝 Conclusion
+
+Manual testing was completed with **166 executed test cases**, achieving a **92.77% pass rate**.
+
+The testing process identified 12 failed scenarios, with findings concentrated on content visibility, contact information, booking validation, and booking selection.
+
+The documented results provide a structured overview of the website's tested functionality and areas requiring further attention.
+
+---
+
+### 👨‍💻 Tested By
+
+**Ali Mohamed Abdelsalam**
+
+Junior Software Tester | CS & AI Student – Helwan University
+
+[LinkedIn](https://www.linkedin.com/in/ali-mohamed-abdelsalam/) | [GitHub](https://github.com/Ali-Mohamed-Abdelsalam)
+
+---
+
+*Manual Testing Project – October 2026*
